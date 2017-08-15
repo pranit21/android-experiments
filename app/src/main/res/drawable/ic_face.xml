@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+    <path
+        android:name="face"
+        android:pathData="M 0 64 C 0 99.346 28.43 128 63.5 128 C 98.57 128 127 99.346 127 64 C 127 28.654 98.57 0 63.5 0 C 28.43 0 0 28.654 0 64"
+        android:fillColor="#ffff00"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"/>
+    <path
+        android:name="eye_1"
+        android:pathData="M 24 48 C 24 51.866 27.134 55 31 55 C 34.866 55 38 51.866 38 48 C 38 44.134 34.866 41 31 41 C 27.134 41 24 44.134 24 48"
+        android:fillColor="#000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"/>
+    <path
+        android:name="eye_2"
+        android:pathData="M 93 41 C 96.866 41 100 44.134 100 48 C 100 51.866 96.866 55 93 55 C 89.134 55 86 51.866 86 48 C 86 44.134 89.134 41 93 41 Z"
+        android:fillColor="#000000"
+        android:strokeColor="#000000"
+        android:strokeWidth="2"/>
+    <group android:name="group">
+        <path
+            android:name="lips_3"
+            android:pathData="M 44 84 Q 64 104 88 84"
+            android:strokeColor="#000000"
+            android:strokeWidth="3"/>
+    </group>
+</vector>

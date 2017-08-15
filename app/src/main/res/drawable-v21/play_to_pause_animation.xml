@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:drawable="@drawable/play_icon">
+
+    <target
+        android:animation="@animator/path_rotate"
+        android:name="path" />
+
+    <target
+        android:animation="@animator/group_rotate"
+        android:name="group" />
+
+</animated-vector>
