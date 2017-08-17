@@ -20,4 +20,12 @@
         android:src="@drawable/smiling_to_sad"
         android:layout_toRightOf="@id/svg"/>
 
+
+    <com.fierydevs.androidexperiments.svgdemo.utils.HeartImageView
+        android:id="@+id/svg_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/make_favorite_target"
+        android:layout_toRightOf="@id/svg_1"/>
+
 </RelativeLayout>

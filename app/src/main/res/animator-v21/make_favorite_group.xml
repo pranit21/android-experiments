@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="scaleX"
+        android:valueFrom="1"
+        android:valueTo="1.2"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="scaleY"
+        android:valueFrom="1"
+        android:valueTo="1.2"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pivotX"
+        android:valueFrom="12"
+        android:valueTo="12"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pivotY"
+        android:valueFrom="12"
+        android:valueTo="12"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pivotY"
+        android:startOffset="150"
+        android:valueFrom="12"
+        android:valueTo="12"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pivotX"
+        android:startOffset="150"
+        android:valueFrom="12"
+        android:valueTo="12"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="scaleY"
+        android:startOffset="150"
+        android:valueFrom="1.2"
+        android:valueTo="1"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="scaleX"
+        android:startOffset="150"
+        android:valueFrom="1.2"
+        android:valueTo="1"
+        android:valueType="floatType" />
+</set>
